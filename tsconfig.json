@@ -22,9 +22,13 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    "./.jest/setup.ts"
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "types": ["node", "jest", "@testing-library/jest-dom"],
+  "experimentalDecorators": true,
+  "emitDecoratorMetadata": true,
 }
