@@ -56,6 +56,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.1"],\
             ["jest", "virtual:8c238e617befb918cd71023348f7d5521f8a317dbace7daef41ca3533ec8432211fb382f12d890da22f939ceefe93cd2e166da4808238a1d9a51378af6bf06b8#npm:29.0.3"],\
             ["jest-environment-jsdom", "npm:29.0.3"],\
+            ["jest-styled-components", "virtual:8c238e617befb918cd71023348f7d5521f8a317dbace7daef41ca3533ec8432211fb382f12d890da22f939ceefe93cd2e166da4808238a1d9a51378af6bf06b8#npm:7.1.1"],\
             ["lint-staged", "npm:13.0.3"],\
             ["next", "virtual:8c238e617befb918cd71023348f7d5521f8a317dbace7daef41ca3533ec8432211fb382f12d890da22f939ceefe93cd2e166da4808238a1d9a51378af6bf06b8#npm:12.3.0"],\
             ["prettier", "npm:2.7.1"],\
@@ -3012,6 +3013,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.1"],\
             ["jest", "virtual:8c238e617befb918cd71023348f7d5521f8a317dbace7daef41ca3533ec8432211fb382f12d890da22f939ceefe93cd2e166da4808238a1d9a51378af6bf06b8#npm:29.0.3"],\
             ["jest-environment-jsdom", "npm:29.0.3"],\
+            ["jest-styled-components", "virtual:8c238e617befb918cd71023348f7d5521f8a317dbace7daef41ca3533ec8432211fb382f12d890da22f939ceefe93cd2e166da4808238a1d9a51378af6bf06b8#npm:7.1.1"],\
             ["lint-staged", "npm:13.0.3"],\
             ["next", "virtual:8c238e617befb918cd71023348f7d5521f8a317dbace7daef41ca3533ec8432211fb382f12d890da22f939ceefe93cd2e166da4808238a1d9a51378af6bf06b8#npm:12.3.0"],\
             ["prettier", "npm:2.7.1"],\
@@ -6056,6 +6058,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["natural-compare", "npm:1.4.0"],\
             ["pretty-format", "npm:29.0.3"],\
             ["semver", "npm:7.3.7"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["jest-styled-components", [\
+        ["npm:7.1.1", {\
+          "packageLocation": "./.yarn/cache/jest-styled-components-npm-7.1.1-d52d5c89e7-1376d12118.zip/node_modules/jest-styled-components/",\
+          "packageDependencies": [\
+            ["jest-styled-components", "npm:7.1.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:8c238e617befb918cd71023348f7d5521f8a317dbace7daef41ca3533ec8432211fb382f12d890da22f939ceefe93cd2e166da4808238a1d9a51378af6bf06b8#npm:7.1.1", {\
+          "packageLocation": "./.yarn/__virtual__/jest-styled-components-virtual-d4420a6668/0/cache/jest-styled-components-npm-7.1.1-d52d5c89e7-1376d12118.zip/node_modules/jest-styled-components/",\
+          "packageDependencies": [\
+            ["jest-styled-components", "virtual:8c238e617befb918cd71023348f7d5521f8a317dbace7daef41ca3533ec8432211fb382f12d890da22f939ceefe93cd2e166da4808238a1d9a51378af6bf06b8#npm:7.1.1"],\
+            ["@adobe/css-tools", "npm:4.0.1"],\
+            ["@types/styled-components", "npm:5.1.26"],\
+            ["styled-components", "virtual:8c238e617befb918cd71023348f7d5521f8a317dbace7daef41ca3533ec8432211fb382f12d890da22f939ceefe93cd2e166da4808238a1d9a51378af6bf06b8#npm:5.3.5"]\
+          ],\
+          "packagePeers": [\
+            "@types/styled-components",\
+            "styled-components"\
           ],\
           "linkType": "HARD"\
         }]\
