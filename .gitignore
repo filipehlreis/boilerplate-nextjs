@@ -2,7 +2,10 @@
 
 #sw stuff
 /public/sw.js
+public/sw.js
 /public/workbox-*.js
+public/workbox-*.js
+public/workbox-*.js
 
 # dependencies
 /node_modules
