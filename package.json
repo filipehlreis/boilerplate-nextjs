@@ -14,11 +14,13 @@
     "test:coverage": "jest --coverage --silent --noStackTrace",
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook -s ./public",
-    "generate": "yarn plop --plopfile generators/plopfile.js"
+    "generate": "yarn plop --plopfile generators/plopfile.js",
+    "commit": "git-cz"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "prepare-commit-msg": "exec < /dev/tty && npx cz --hook || true"
     }
   },
   "lint-staged": {
@@ -61,6 +63,8 @@
     "babel": "^6.23.0",
     "babel-loader": "^8.2.5",
     "babel-plugin-styled-components": "^2.0.7",
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "3.3.0",
     "eslint": "^8.26.0",
     "eslint-config-next": "12.3.1",
     "eslint-config-prettier": "^8.5.0",
@@ -77,5 +81,10 @@
     "react-is": "^18.2.0",
     "ts-jest": "^29.0.3",
     "typescript": "4.8.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
