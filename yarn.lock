@@ -3276,17 +3276,18 @@
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
 
-"@yarnpkg/core@^4.0.0-rc.18":
-  version "4.0.0-rc.18"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/core/-/core-4.0.0-rc.18.tgz#f6c760d192848e4fdb3c3c0559555a4d601a5771"
+"@yarnpkg/core@^4.0.0-rc.25":
+  version "4.0.0-rc.25"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/core/-/core-4.0.0-rc.25.tgz#7944df76aa7e82699eddf8adbaca5f8ffd5f14fb"
+  integrity sha512-Dfy9HnSxerDI+2MwmAVb6G/IAKsjSKZfBi5SI5koTdKlNVweoxmdNMDYxPjz97+THP8XGZF3rAu1bQ7Ys9vvrw==
   dependencies:
     "@arcanis/slice-ansi" "^1.1.1"
     "@types/semver" "^7.1.0"
     "@types/treeify" "^1.0.0"
-    "@yarnpkg/fslib" "^3.0.0-rc.18"
-    "@yarnpkg/libzip" "^3.0.0-rc.18"
-    "@yarnpkg/parsers" "^3.0.0-rc.18"
-    "@yarnpkg/shell" "^4.0.0-rc.18"
+    "@yarnpkg/fslib" "^3.0.0-rc.25"
+    "@yarnpkg/libzip" "^3.0.0-rc.25"
+    "@yarnpkg/parsers" "^3.0.0-rc.25"
+    "@yarnpkg/shell" "^4.0.0-rc.25"
     camelcase "^5.3.1"
     chalk "^3.0.0"
     ci-info "^3.2.0"
@@ -3306,46 +3307,51 @@
     tslib "^2.4.0"
     tunnel "^0.0.6"
 
-"@yarnpkg/fslib@^3.0.0-rc.18":
-  version "3.0.0-rc.18"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/fslib/-/fslib-3.0.0-rc.18.tgz#43b9ee85ca0b517a87774f98c4395435b2b215b0"
+"@yarnpkg/fslib@^3.0.0-rc.25":
+  version "3.0.0-rc.25"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/fslib/-/fslib-3.0.0-rc.25.tgz#42ab417d094819b4e645e07a5bcd95c7db064ad8"
+  integrity sha512-3/sEMUETbKzmIkP8e9khIdJ7CPecdL2UKLQC946Jpmu6PP8kTNCwcAk5bSIkBZVEHJMPEaZ3TlMAhedpAWF7wg==
   dependencies:
-    "@yarnpkg/libzip" "^3.0.0-rc.18"
     tslib "^2.4.0"
 
-"@yarnpkg/libzip@^3.0.0-rc.18":
-  version "3.0.0-rc.18"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/libzip/-/libzip-3.0.0-rc.18.tgz#e64f4a892d8b2dc2fc30cb2cf36ac39a0b809597"
+"@yarnpkg/libzip@^3.0.0-rc.25":
+  version "3.0.0-rc.25"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/libzip/-/libzip-3.0.0-rc.25.tgz#051ccf44aa09b67a5e94106d8c200860e138d814"
+  integrity sha512-YmG+oTBCyrAoMIx5g2I9CfyurSpHyoan+9SCj7laaFKseOe3lFEyIVKvwRBQMmSt8uzh+eY5RWeQnoyyOs6AbA==
   dependencies:
     "@types/emscripten" "^1.39.6"
+    "@yarnpkg/fslib" "^3.0.0-rc.25"
     tslib "^2.4.0"
 
-"@yarnpkg/parsers@^3.0.0-rc.18":
-  version "3.0.0-rc.18"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/parsers/-/parsers-3.0.0-rc.18.tgz#e38a76e8039728dac3cbea92c445dd8409693843"
+"@yarnpkg/parsers@^3.0.0-rc.25":
+  version "3.0.0-rc.25"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/parsers/-/parsers-3.0.0-rc.25.tgz#aec9794739fd6923ce4ae628f4d52734c817f871"
+  integrity sha512-uotaIJwVQeV/DcGA9G2EVuVFHnEEdxDy3yRLeh9VHS6Lx7nZETaWzJPU1bgAwnAa3gplol2NIQhlsr2eqgq9qA==
   dependencies:
     js-yaml "^3.10.0"
     tslib "^2.4.0"
 
-"@yarnpkg/sdks@^3.0.0-rc.18":
-  version "3.0.0-rc.18"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/sdks/-/sdks-3.0.0-rc.18.tgz#f4a0e0e69e39aa041834cf2cf3736a9037e6349e"
+"@yarnpkg/sdks@^3.0.0-rc.25":
+  version "3.0.0-rc.25"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/sdks/-/sdks-3.0.0-rc.25.tgz#4b59534d6dd774cff89970c1dcce4d554b12a484"
+  integrity sha512-lFpRhhdiAbcBCJoe7Up2U22kTO7q6NnwMYM2H6KNAMtECOMVNnsP3kihWC9a1jo48OiKkPtzk8QsiiEn0T6hOA==
   dependencies:
-    "@yarnpkg/core" "^4.0.0-rc.18"
-    "@yarnpkg/fslib" "^3.0.0-rc.18"
-    "@yarnpkg/parsers" "^3.0.0-rc.18"
+    "@yarnpkg/core" "^4.0.0-rc.25"
+    "@yarnpkg/fslib" "^3.0.0-rc.25"
+    "@yarnpkg/parsers" "^3.0.0-rc.25"
     chalk "^3.0.0"
     clipanion "^3.2.0-rc.10"
     comment-json "^2.2.0"
     lodash "^4.17.15"
     tslib "^2.4.0"
 
-"@yarnpkg/shell@^4.0.0-rc.18":
-  version "4.0.0-rc.18"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/shell/-/shell-4.0.0-rc.18.tgz#480f8c7b9c999f2ae0d90bd5a763e6623be8b9bb"
+"@yarnpkg/shell@^4.0.0-rc.25":
+  version "4.0.0-rc.25"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/shell/-/shell-4.0.0-rc.25.tgz#36dbbfb4230760bb1b81d701d42a1eb6902b44c3"
+  integrity sha512-12tQ7qC8Su99GD2g+W52wuGbanXqKetmObj1E8rpXofe8kU8pCSIm22QP0pO4TiRFVF1NpOkXXu5LBUH642+RA==
   dependencies:
-    "@yarnpkg/fslib" "^3.0.0-rc.18"
-    "@yarnpkg/parsers" "^3.0.0-rc.18"
+    "@yarnpkg/fslib" "^3.0.0-rc.25"
+    "@yarnpkg/parsers" "^3.0.0-rc.25"
     chalk "^3.0.0"
     clipanion "^3.2.0-rc.10"
     cross-spawn "7.0.3"
